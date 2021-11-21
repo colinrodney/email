@@ -1,0 +1,38 @@
+blue gradient color: hsl(207, 93%,100%);
+
+
+**** LINKS TO OPTIMIZED IMAGES (postimages.com) ****
+https://i.postimg.cc/wvbv57r9/appstore.png
+https://i.postimg.cc/3wYd3MpQ/bell-icon.png
+https://i.postimg.cc/q7wgRmXh/check-icon.png
+https://i.postimg.cc/wMCjPnHP/facebook-icon.png
+https://i.postimg.cc/sfqxvGSc/google-icon.png
+https://i.postimg.cc/FsSRcFVQ/image-head.jpg
+https://i.postimg.cc/T1LPtT8g/linkedin-icon.png
+https://i.postimg.cc/FRKzJjDP/logo.png
+https://i.postimg.cc/pLtdBNs5/menu-icon.png
+https://i.postimg.cc/xdfTWvD0/one-app.jpg
+https://i.postimg.cc/GmJm7Mf7/phone-icon.png
+https://i.postimg.cc/d05tvhwG/phone-icon-48.png
+https://i.postimg.cc/Y9j2StCZ/pinterest-icon.png
+https://i.postimg.cc/5jWfpvSW/playstore.png
+https://i.postimg.cc/HnypQ35t/settings-icon.png
+https://i.postimg.cc/PxcXp0Lx/share-icon.png
+https://i.postimg.cc/3r4pSTFt/share-icon2.png
+https://i.postimg.cc/J7fXS2TM/smartwatch.png
+https://i.postimg.cc/L8R18ZKW/twitter-icon.png
+https://i.postimg.cc/8PLvGm3W/watch-screen.png
+https://i.postimg.cc/T39WLYT3/watch-screen-37.png
+https://i.postimg.cc/4327PL7C/watch-screen-39.png
+https://i.postimg.cc/rpwRSXpC/wifi-icon.png
+https://i.postimg.cc/1tggjGw8/youtube-icon.png
+
+
+
+***** MEDIA QUERIES*****
+@larger screens > 992px
+  - outer-container = 100% screen with
+
+@
+
+

@@ -1,0 +1,26 @@
+td styles
+style="text-transform: uppercase; color: #141414; font-weight: 400;"
+
+img styles
+valign="middle" style="padding-right: 10px;"
+
+detail paragraph styles
+style="color: #7f8887; line-height: 1.8;"
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="50%" align="left">
+                  <!-- left column -->
+                  <tr>
+                    <td style="text-transform: uppercase; color: #141414; font-weight: 400;">
+                      <img src="assets/img/phone_icon.png" alt="phone_icon" valign="middle" style="padding-right: 10px;">
+                      responsive layout
+                    </td>
+                  </tr>
+                  <!-- details  -->
+                  <tr>
+                    <td>
+                      <p style="color: #7f8887; line-height: 1.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </td>
+                  </tr>
+                 
+                </table>

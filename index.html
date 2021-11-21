@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+      font-family: "Open Sans", sans-serif;
+    }
+
+   
+    
+
+    .h3 {
+      font-size: 1.3rem;
+    }
+
+    .outer-wrapper {
+      width: 100%;
+     
+    }
+
+    .inner-wrapper {
+      width: 600px;
+     
+    }
+
+    .button {
+      display: block;
+      width: 50%;
+      margin-bottom: 3rem;
+      text-align: center;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: inherit;
+      border: 2px solid #ffffff;
+      padding: 10px 15px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    /* this class for testing purposes only - remove when done tesing! */
+    .test {
+      background-color: lightblue;
+    }
+
+    /* social icons styles*/
+    .social-icon{
+      padding-left: 5px;
+      display: inline-block;
+      width: 30px;
+    }
+
+
+    /* MEDIA QUERIES */
+    /* small screens */
+     @media (max-width: 599px){
+       .header-left, .header-right{
+         width: 100%;
+       }
+
+       .hero-column-left,.hero-column-center,.hero-column-right{
+         width: 100%;
+         text-align: center;
+       }
+
+       .most-advanced{
+         width: 100%;
+         text-align: center;
+       }
+
+       .most-advanced .appstore{
+         text-align: center;
+       }
+
+       .feature-columns__left-description, .feature-columns-right__description{
+         text-align: center;
+       }
+     }
+
+     @media(min-width: 600px){
+       .hero-column-left,.hero-column-center,.hero-column-right{
+         width: 33.33%;
+         /* text-align: center; */
+       }
+
+       .features-table{
+         width: 33.33%;
+       }
+
+       .feature-columns__left, .feature-columns__right{
+         width: 50%;
+       }
+
+     }
+
+     /* medium sized screens and up */
+     @media(min-width: 768px){
+       .inner-wrapper{
+         width: 100%;
+       }
+     }
+    
+
+
+    
+      
+
+   
+    
+    </style>
+
+  <body>
+    <!-- outer wrapper -->
+    <table cellspacing="0" cellpadding="0" class="outer-wrapper" style="background-color: #141414;">
+      <tr>
+        <td>
+         
+          <!-- inner wrapper -->
+          <table
+            cellspacing="0"
+            cellpadding="0"
+            class="inner-wrapper"
+            align="center"
+          >
+            <!-- header -->
+            <tr>
+              <td>
+                <!-- left-column / left outer table (container) -->
+                <table
+                  class="header-left"
+                  cellspacing="0"
+                  cellpadding="0"
+                  align="left"
+                  width="50%"
+                  border="0"
+                  
+                  style="color: #ffffff; background: #1e5799;
+                  background: -moz-linear-gradient(-45deg,  #1e5799 0%, #48c1f3 30%, #207cca 64%);
+                  background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#48c1f3 30%,#207cca 64%);
+                  background: linear-gradient(135deg,  #1e5799 0%,#48c1f3 30%,#207cca 64%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 );">
+                  <tr>
+                    <td style="padding-left: 15px;
+                    padding-right: 20px; padding-bottom: 0.9px">
+                      <img
+                        src="https://i.postimg.cc/FRKzJjDP/logo.png"
+                        alt="logo"
+                        style="padding: 1.5rem 0"
+                      />
+                      <p
+                        style="
+                          font-size: 1.5rem;
+                          color: #ffffff;
+                          margin: 0.5rem 0;
+                          line-height: 1;
+                        "
+                      >
+                        Get ready for
+                      </p>
+                      <p
+                        style="
+                          margin: 0.5rem 0 1.5rem 0;
+                          font-size: 5rem;
+                          font-weight: 600;
+                          color: #ffffff;
+                          text-transform: uppercase;
+                          line-height: 1;
+                        "
+                      >
+                        hero
+                      </p>
+                      <p
+                        style="
+                          margin: 0 0 1.5rem 0;
+                          color: #ffffff;
+                          /* line-height: 1; */
+                          font-style: italic;
+                          font-size: 0.9rem;
+                        "
+                      >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Provident, velit?
+                      </p>
+                      <a href="#" class="button">learn more</a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- right column / right outer table (container) -->
+                <table
+                  class="header-right"
+                  cellspacing="0"
+                  cellpadding="0"
+                  width="50%"
+                  style="background-color: #ffffff;"
+                >
+                  <!--navigation link row-->
+                  <tr>
+                    <td>
+                      <!-- inner table (navigation links) -->
+                      <table
+                        cellspacing="0"
+                        cellpadding="0"
+                        border="0"
+                        width="100%"
+                        
+                        style="padding: 10px"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            style="
+                              /* text-align: center; */
+
+                              text-transform: uppercase;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: #4d4d4d;
+                                font-size: 0.8rem;
+                                font-weight: 600;
+                                "
+                              >about</a
+                            >
+                          </td>
+
+                          <td
+                            align="center"
+                            style="
+                              /* text-align: center; */
+
+                              text-transform: uppercase;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: #4d4d4d;
+                                font-size: 0.8rem;
+                                font-weight: 600;
+                              "
+                              >careers</a
+                            >
+                          </td>
+
+                          <td
+                            align="center"
+                            style="
+                              /* text-align: center; */
+
+                              text-transform: uppercase;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: #4d4d4d;
+                                font-size: 0.8rem;
+                                font-weight: 600;
+                              "
+                              >contact</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- smartwatch img row -->
+                  <tr>
+                    <td
+                      align="center"
+                      valign="bottom"
+                      style="padding-top: 25px;"
+                    >
+                      <img src="https://i.postimg.cc/J7fXS2TM/smartwatch.png" alt="smartwatch-icon" style="width: 215px;"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SECTION: Hero lets you... -->
+            <tr>
+              <td style="background-color: #f8f8f8; padding: 10px;">
+                <!-- section title-->
+                <p
+                  style="text-align: center; padding: 2rem 0; color: #141414"
+                  class="h3"
+                >
+                  Hero let's you...
+                </p>
+
+                <!-- left column -->
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  
+                  align="left"
+                  class="hero-column-left"
+                  style="padding: 25px 25px 2rem 25px;"
+                >
+                  <!-- title row -->
+                  <tr>
+                    <td align="center">
+                      <!-- img + title column -->
+                      <table cellpadding="0" cellspacing="0" class="hero-column-left__title">
+                        <tr>
+                          <td>
+                            <img src="https://i.postimg.cc/3wYd3MpQ/bell-icon.png" alt="bell-icon" />
+                          </td>
+                          <td
+                            style="
+                              padding-left: 15px;
+                              text-transform: uppercase;
+                              font-weight: 600;
+                            "
+                          >
+                            notify
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- description row -->
+                  <tr>
+                    <td>
+                      <p
+                        style="
+                          color: #7f8887;
+                          font-weight: 400;
+                          line-height: 1.5;
+                        "
+                      >
+                        Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.
+                      </p>
+                    </td>
+                  </tr>
+                  <!-- call-to-action row -->
+                  <tr>
+                    <td>
+                      <a href="#" style="text-decoration: none; color: #98c9f3"
+                        >Learn more</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- center column -->
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  
+                  align="left"
+                  class="hero-column-center"
+                  style="padding: 25px 25px 2rem 25px;"
+                >
+                  <!-- title row -->
+                  <tr>
+                    <td align="center">
+                      <!-- img + title column -->
+                      <table cellpadding="0" cellspacing="0" class="hero-column-center__title">
+                        <tr>
+                          <td>
+                            <img src="https://i.postimg.cc/PxcXp0Lx/share-icon.png" alt="share-icon" />
+                          </td>
+                          <td
+                            style="
+                              padding-left: 15px;
+                              text-transform: uppercase;
+                              font-weight: 600;
+                            "
+                          >
+                            share
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- description row -->
+                  <tr>
+                    <td class="hero-column-center__description">
+                      <p
+                        style="
+                          color: #7f8887;
+                          font-weight: 400;
+                          line-height: 1.5;
+                        "
+                      >
+                        Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.
+                      </p>
+                    </td>
+                  </tr>
+                  <!-- call-to-action row -->
+                  <tr>
+                    <td class="hero-column-center__cta">
+                      <a href="#" style="text-decoration: none; color: #98c9f3"
+                        >Learn more</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- right column -->
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  
+                  align="left"
+                  class="hero-column-right"
+                  style="padding: 25px 25px 2rem 25px;"
+                >
+                  <!-- title row -->
+                  <tr>
+                    <td align="center">
+                      <!-- img + title column -->
+                      <table cellpadding="0" cellspacing="0" class="hero-column-right__title">
+                        <tr>
+                          <td >
+                            <img
+                              src="https://i.postimg.cc/rpwRSXpC/wifi-icon.png"
+                              alt="wifi_icon"
+                            />
+                          </td>
+                          <td
+                            style="
+                              padding-left: 15px;
+                              text-transform: uppercase;
+                              font-weight: 600;
+                            "
+                          >
+                            connect
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- description row -->
+                  <tr>
+                    <td class="hero-column-right__description">
+                      <p
+                        style="
+                          color: #7f8887;
+                          font-weight: 400;
+                          line-height: 1.5;
+                        "
+                      >
+                        Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.
+                      </p>
+                    </td>
+                  </tr>
+                  <!-- call-to-action row -->
+                  <tr>
+                    <td class="hero-column-right__cta">
+                      <a href="#" style="text-decoration: none; color: #98c9f3; padding: 1rem 0;"
+                        >Learn more</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- end: hero lets you section -->
+            </tr>
+
+            <!--SECTION: color block separator + world's most advanced app -->
+            <tr>
+              <!-- color block separator -->
+              <td align="center" style=
+              "background-color: #ffffff;">
+                <table cellspacing="0" cellpadding="0" border="0" class="image-head">
+                  <tr>
+                    <td align="center" style="padding: 4rem 0">
+                      <img src="https://i.postimg.cc/FsSRcFVQ/image-head.jpg" alt="pink-image-head" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- columns row -->
+              <tr>
+                <td style="background-color: #ffffff;">
+                  <!-- section titie -->
+                  <p style="text-align:center; padding: 1rem 0; line-height: 1.5;">
+                    World's <strong>most advanced App</strong> <br>
+                    with High-Tech
+                    solutions
+                  </p>
+                  <!-- left column -->
+                  <table
+                    cellspacing="0"
+                    border="0"
+                    cellpadding="0"
+                    width="50%"
+                    align="left"
+                    style="padding: 25px;"
+                    class="most-advanced"
+                  >
+                    <tr>
+                      <td style="color: #99a09f; font-size: .8rem; line-height: 1.5;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatibus iusto facere ea repudiandae sit, suscipit
+                        dignissimos exercitationem minus.
+                      </td>
+                    </tr>
+                    <!-- app store icon -->
+                    <tr>
+                      <td style="padding: 1rem 0;" align="right" class="appstore">
+                        <img src="https://i.postimg.cc/wvbv57r9/appstore.png" alt="apple-appstore-icon" />
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- right column -->
+                  <table
+                    cellspacing="0"
+                    border="0"
+                    cellpadding="0"
+                    width="50%"
+                    align="left"
+                    style="padding: 25px;"
+                    class="most-advanced"
+                  >
+                    <tr>
+                      <td style="color: #99a09f; font-size: .8rem; line-height: 1.5;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatibus iusto facere ea repudiandae sit, suscipit
+                        dignissimos exercitationem minus.
+                      </td>
+                      <!-- app store icon -->
+                    <tr>
+                      <td style="padding: 1rem 0;" align="left" class="appstore">
+                        <img src="https://i.postimg.cc/5jWfpvSW/playstore.png" alt="google-playstore-icon" />
+                      </td>
+                    </tr>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tr>
+
+            <!-- SECTION: One App, One Solution -->
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="one-app-one-solution">
+                  <tr>
+                    <td style="padding: 4rem; background-color:#141414;">
+                      <img src="https://i.postimg.cc/xdfTWvD0/one-app.jpg" alt="one_app-one_solution " style="display:block; width: 100%;">
+                    </td>
+                    
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SECTION: Features all joined together -->
+            <tr>
+              <td align="center" style="background-color: #ffffff;">
+                <!-- section header -->
+                <p style="padding: 3rem 0; font-size: 1.2rem;">Features <strong>All Joined Together</strong>&#160;in One App</p>
+
+                <!-- left column -->
+                <table cellpadding="0" cellspacing="0" border="0" align="left" width="100%" style="margin-bottom: 5rem;" class="features-table">
+                  <!-- img -->
+                  <tr>
+                    <td align="center">
+                      <img src="https://i.postimg.cc/8PLvGm3W/watch-screen.png" alt="watchscreen-icon">
+
+                    </td>
+                  </tr>
+                  <!-- title-->
+                  <tr>
+                    <td align="center" style="padding: 1rem 0; text-transform: uppercase; color: #434343; font-weight: 400;">
+                      sync
+
+                    </td>
+                  </tr>
+                  <!-- description -->
+                  <tr>
+                    <td align="center" style="padding-bottom: 1rem; line-height: 1.5; color: #7f8887;">
+                      Lorem ipsum dolor <br>
+                       sit amet consectetur.
+                    </td>
+                  </tr>
+                  <!-- call-to-action -->
+                  <tr>
+                    <td align="center">
+                      <a href="#" style="text-decoration: none; color: #52a8f0;">Learn more</a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- middle column -->
+                <table cellpadding="0" cellspacing="0" border="0" align="left" width="100%" style="margin-bottom: 5rem;" class="features-table">
+                  <!-- img -->
+                  <tr>
+                    <td align="center">
+                      <img src="https://i.postimg.cc/8PLvGm3W/watch-screen.png" alt="watchscreen-icon">
+
+                    </td>
+                  </tr>
+                  <!-- title-->
+                  <tr>
+                    <td align="center" style="padding: 1rem 0; text-transform: uppercase; color: #434343; font-weight: 400;">
+                      share
+
+                    </td>
+                  </tr>
+                  <!-- description -->
+                  <tr>
+                    <td align="center" style="padding-bottom: 1rem; line-height: 1.5; color: #7f8887;">
+                      Lorem ipsum dolor <br>
+                       sit amet consectetur.
+                    </td>
+                  </tr>
+                  <!-- call-to-action -->
+                  <tr>
+                    <td align="center">
+                      <a href="#" style="text-decoration: none; color: #52a8f0;">Learn more</a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- right column -->
+                <table cellpadding="0" cellspacing="0" border="0" align="right" width="100%" style="margin-bottom: 5rem;" class="features-table">
+                  <!-- img -->
+                  <tr>
+                    <td align="center">
+                      <img src="https://i.postimg.cc/8PLvGm3W/watch-screen.png" alt="watchscreen-icon">
+
+                    </td>
+                  </tr>
+                  <!-- title-->
+                  <tr>
+                    <td align="center"  style="padding: 1rem 0; text-transform: uppercase; color: #434343; font-weight: 400;">
+                      stats
+
+                    </td>
+                  </tr>
+                  <!-- description -->
+                  <tr>
+                    <td align="center" style="padding-bottom: 1rem; line-height: 1.5; color: #7f8887;">
+                      Lorem ipsum dolor <br>
+                       sit amet consectetur.
+                    </td>
+                  </tr>
+                  <!-- call-to-action -->
+                  <tr>
+                    <td align="center">
+                      <a href="#" style="text-decoration: none; color: #52a8f0;">Learn more</a>
+                    </td>
+                  </tr>
+                </table>
+               
+            </tr>
+
+            <!-- SECTION: Features Section- Two column layout (features/ details) -->
+            <tr>
+              <!-- main columns data cell-->
+              <td class="feature-columns" style="background-color: #fafafa;">
+
+                <!-- LEFT COLUMN --> 
+                <!-- responsive layout -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%" style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/GmJm7Mf7/phone-icon.png" alt="phone-icon" valign="middle">
+                            <span>responsive layout</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- various skins -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%"  style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/q7wgRmXh/check-icon.png" alt="check-icon" valign="middle">
+                            <span>various skins</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                 <!-- user friendly menus -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%"  style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/pLtdBNs5/menu-icon.png" alt="menu-icon" valign="middle">
+                            <span>user friendly menus</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- RIGHT COLUMN -->
+                <!-- retina ready -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%" style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/d05tvhwG/phone-icon-48.png" alt="eye-icon" valign="middle">
+                            <span>retina ready</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- great performance -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%" style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/HnypQ35t/settings-icon.png" alt="settings-icon" valign="middle">
+                            <span>great performance</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- social share -->
+                <table class="feature-columns__left" cellspacing="0" cellpadding="0" border="0" width="100%" style="padding: 10px;" align="left"  >
+                  <tr>
+                    <td>
+                      
+                      <table class="feature-columns__left-description" cellspacing="0" cellpadding="0" border="0" width="100%" >
+                        <!-- header row -->
+                        <tr>
+                          <td style="text-transform: uppercase; color: #141414; font-weight: 400; font-size:0.8rem;">
+                            <img src="https://i.postimg.cc/3r4pSTFt/share-icon2.png" alt="share-icon2" valign="middle">
+                            <span>social share</span>
+                          </td>
+                        </tr>
+                        <!-- description row -->
+                        <tr>
+                          <td>
+                            <p style="color: #7f8887; line-height: 1.8; font-size: 0.8rem;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque?
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SECTION: Interested? -->
+            <tr>
+              <td style="text-align: center;  color: #ffffff; padding: 75px; background: #1e5799;
+background: -moz-linear-gradient(-45deg,  #1e5799 0%, #48c1f3 30%, #207cca 64%);
+background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#48c1f3 30%,#207cca 64%);
+background: linear-gradient(135deg,  #1e5799 0%,#48c1f3 30%,#207cca 64%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 );
+ ">
+                <p style="font-size:1.3rem; color: #ffffff;">Intereseted in our App?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing <br>elit. Excepturi similique doloribus non!</p>
+                <a href="#" style="font-size: .8rem; text-transform: uppercase; display: block; width: 50%; margin: 2.5rem auto 3rem auto; border: 2px solid #ffffff; color: #ffffff; text-decoration: none; padding: 5px 10px;">request a quote</a>
+              </td>
+            </tr>
+
+            <!-- SECTION: Footer -->
+            <tr>
+              <td align="center" style="padding: 1.5rem 0; background-color: #ffffff;">
+                <!-- footer intro -->
+                <p style="font-weight:600; text-transform: uppercase; font-size: 1.5rem;">hero</p>
+                <!-- footer icons table -->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tr>
+                    <td align="center" style="padding: 25px;">
+                      <!-- twiiter -->
+                      <a href="https://www.twitter.com" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/L8R18ZKW/twitter-icon.png" alt="twitter-icon" class="social-icon">
+                      </a>
+                      
+                      <!-- facebook -->
+                      <a href="#" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/wMCjPnHP/facebook-icon.png" alt="facebook-icon" class="social-icon">
+
+                      </a>
+                      <!-- google+ -->
+                      <a href="#" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/sfqxvGSc/google-icon.png" alt="google-icon" class="social-icon">
+
+                      </a>
+                      <!-- pinterest -->
+                      <a href="#" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/Y9j2StCZ/pinterest-icon.png" alt="pinterest-icon" class="social-icon">
+
+                      </a>
+                      <!-- linkedin -->
+                      <a href="#" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/T1LPtT8g/linkedin-icon.png" alt="linkedin-icon" class="social-icon">
+
+                      </a>
+                      <!-- youtube -->
+                      <a href="#" style="text-decoration: none;" target="_blank">
+                        <img src="https://i.postimg.cc/1tggjGw8/youtube-icon.png" alt="youtube-icon" class="social-icon">
+
+                      </a>
+                    </td>
+                  </tr>
+                  
+                </table>
+                <p style="font-size: 0.8rem; color:#bebebe; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quod!&#160;<a href="#" style="font-size: 0.8rem; color: #61aff1;">Unsubscribe</a></p>
+              </td>
+            </tr>
+
+            
+            <!-- END:inner wrapper- NEW CONTENT ABOVE THIS COMMENT! -->
+          </table>
+        </td>
+      </tr>
+      <!-- END: outer wrapper -->
+    </table>
+  </body>
+</html>
